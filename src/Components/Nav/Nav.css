@@ -1,0 +1,95 @@
+.logo {
+  justify-content: center;
+  height:50px;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+.navbar {
+    background: transparent;
+    position: fixed;
+    right:0;
+    top:0;
+    left: 0;
+    margin: 0;
+    z-index: 9999;
+
+  }
+  .navbar ul {
+      float: right;
+    list-style: none;
+    text-align: center;
+    margin: 0px 20px;
+    padding: 20px;
+  }
+  .navbar ul li {
+    display: inline-block;
+  }
+  .navbar ul li a {
+    display: block;
+    text-decoration: none;
+    color: rgb(77, 77, 77);
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0 10px;
+  }
+  .navbar ul li a,
+  .navbar ul li a:after,
+  .navbar ul li a:before {
+    transition: all .5s;
+  }
+  .navbar ul li a:hover {
+    color: rgb(26, 26, 26);
+  }
+  
+  
+  /* stroke */
+  .navbar.stroke ul li a,
+  .navbar.fill ul li a {
+    z-index: 9999;
+    position: relative;
+  }
+  .navbar.stroke ul li a:after,
+  .navbar.fill ul li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: -5px 0px;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: rgb(27, 27, 27);
+    height: 2px;
+  }
+  .navbar.stroke ul li a:hover:after {
+    width: 100%;
+  }
+  
+  .navbar.fill ul li a {
+    transition: all 2s;
+  }
+  
+  .navbar.fill ul li a:after {
+    text-align: left;
+    margin: 0;
+    opacity: 0;
+  }
+  .navbar.fill ul li a:hover {
+    color: #fff;
+    z-index: 1;
+  }
+  .navbar.fill ul li a:hover:after {
+    z-index: 9999;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+  }
+
+
+
+
+  .navbar-active {
+    background: rgba(255, 255, 255, 0.937);
+  }

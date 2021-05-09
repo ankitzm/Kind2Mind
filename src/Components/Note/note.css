@@ -1,0 +1,20 @@
+.note {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+margin: 130px 100px;
+border-radius: 20px;
+background-color: rgba(223, 226, 189, 0.363);
+height:550px;
+text-decoration: none;
+}
+
+.head {
+    color:rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.container-fluid {
+    font-size: 20px;
+}

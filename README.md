@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# A health app to reduce stress.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+How to use app on your local device
 
-## Available Scripts
+## Setup and dependencies
 
-In the project directory, you can run:
+The `create react app` depends on `Node` and lots of node_modules. 
 
-### `npm start`
+You will need to have node installed (more info in https://nodejs.org) and then run `npm update` from the root folder of this project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To run the code you can use on of the following commands:
+* `npm start` : Starts the application in development mode. It will open a browser with the app
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* `npm run build` : Creates the production code in the build folder. The command will give you the instructions on how to show the production code
 
-### `npm test`
+## External tools
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I tried not to use many external components and libraries in order to learn a bit more about the basics of React.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To follow is the list of packages that I added:
+* `moment` : To deal with date and time in notes app, specifically in the formatting
+* `react-router-dom` : To deal with the routes in notes app
+* `react-newline-to-break`: To deal with the description new lines rendering to html
+* `bootstrap` : Used the default template mainly just to make it look a bit nicer and responsive
+* `react-snake-game` : I have used npm library of snake game in the Games section.
+* `Quiz` : The quiz game was re created using this repository "https://github.com/AykutSarac/react-quiz"

@@ -1,0 +1,24 @@
+.created-by {
+
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    
+        height:auto;
+        margin: 20px;
+        padding: 20px 0px; 
+    }
+
+
+.heading {
+    padding: 30px;
+    font-size: 40px;
+}
+
+.created-by-container {
+    display: flex;
+    flex-direction: row;
+}
