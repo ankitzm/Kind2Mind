@@ -9,6 +9,9 @@ The `create react app` depends on `Node` and lots of node_modules.
 You will need to have node installed (more info in https://nodejs.org) and then run `npm update` from the root folder of this project.
 
 To run the code you can use on of the following commands:
+
+* `npm install` : It will install some important dependencies
+
 * `npm start` : Starts the application in development mode. It will open a browser with the app
 
 * `npm run build` : Creates the production code in the build folder. The command will give you the instructions on how to show the production code
