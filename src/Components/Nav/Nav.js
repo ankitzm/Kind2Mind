@@ -29,7 +29,6 @@ const Nav = () => {
       <li><a href="#home">Home</a></li>
       <li><a href="#about">Mental health</a></li>
       <li><a href="#created-by">About Us</a></li>
-      <li><a href="#contact">Contact Us</a></li>
     </ul>
   </nav>
 

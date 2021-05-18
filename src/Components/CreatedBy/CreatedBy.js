@@ -4,12 +4,13 @@ import ProfileCard from "./ProfileCard/ProfileCard";
 import Rajveer from "../assets/rajveersq.jpeg"
 import Ankit from "../assets/pp.jfif"
 import Gibran from "../assets/gibransq.jpeg"
+import Heading from "../Heading/Heading";
 
 const CreatedBy = () => {
     return (
 
     <div className="created-by" id="created-by">
-        <div className="heading">PROUDLY CREATED BY</div>
+        <Heading title="Proudly Created By" />
         <div className="created-by-container">
         
         <ProfileCard

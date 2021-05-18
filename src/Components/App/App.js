@@ -1,4 +1,5 @@
 import React from "react";
+import './App.css';
 import Games from "../Games/Games";
 import About from "../About/About";
 import CreatedBy from "../CreatedBy/CreatedBy";
@@ -9,14 +10,11 @@ import Playlist from "../Playlist/Playlist";
 import Note from "../Note/Note"
 
 
-import './App.css';
 import Suggestion from "../Suggestion/Suggestion";
-import Contact from "../contact/Contact";
 
 function App() {
   return (
     <div className="App">
-      <Nav />
       <Landing />
       <About />
       <Games />
@@ -25,9 +23,7 @@ function App() {
       <Note />
       <Suggestion />
       <CreatedBy />
-      <Contact />
 
-      <div id='note'></div>
     </div>
   );
 }

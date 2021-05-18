@@ -6,17 +6,15 @@
 }
 
 .navbar {
-    background: transparent;
+    background: rgb(180, 72, 72);
     position: fixed;
-    right:0;
     top:0;
-    left: 0;
     margin: 0;
     z-index: 9999;
+    width: 100%;
 
   }
   .navbar ul {
-      float: right;
     list-style: none;
     text-align: center;
     margin: 0px 20px;
