@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import Heading from "./../Heading/Heading";
 import "./Form.css";
 
 class Form extends Component {
@@ -45,7 +46,7 @@ class Form extends Component {
 
 
       <form onSubmit={this.handleSubmit} className="form">
-          <div className="heading">INTERACT</div>
+          <Heading title="INTERACT" />
         <div className="form-grid">
 
           <textarea

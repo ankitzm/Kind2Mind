@@ -1,24 +1,14 @@
 import React from "react";
+import Heading from "../Heading/Heading";
 import "./About.css";
 
 const About = () => {
   return (
-    <div>
-
-
-
-      <div className="nav" id="about">
-      <ul>
-      <li><a href="#game">Games</a></li>
-      <li><a href="#playlist">Playlist</a></li>
-      <li><a href="#meet">Meet</a></li>
-      <li><a href="#note">Notes</a></li>
-    </ul>
-      </div>
+    
     <div className="about">
 
 
-      <h1>WHAT IS MENTAL HEALTH ?</h1>
+      <Heading title="What is mental Health ?" />
       <p>
         Mental health includes our emotional, psychological, and social
         well-being. It affects how we think, feel, and act. It also helps
@@ -35,8 +25,8 @@ const About = () => {
       </p>
 
       
-    </div>
-    </div>
+  </div>
+
   );
 };
 

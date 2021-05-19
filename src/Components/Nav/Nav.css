@@ -1,26 +1,16 @@
-.logo {
-  justify-content: center;
-  height:50px;
-  margin-top: 7px;
-  margin-left: 10px;
-}
-
 .navbar {
     background: transparent;
     position: fixed;
-    right:0;
     top:0;
-    left: 0;
-    margin: 0;
-    z-index: 9999;
+    margin: 0px;
+padding: 3em 0em 0em 0em;
+width: 100%;
 
   }
   .navbar ul {
-      float: right;
     list-style: none;
-    text-align: center;
-    margin: 0px 20px;
-    padding: 20px;
+    text-align: right;
+    padding: 0em 1em 0em 0em;
   }
   .navbar ul li {
     display: inline-block;
@@ -28,10 +18,10 @@
   .navbar ul li a {
     display: block;
     text-decoration: none;
-    color: rgb(77, 77, 77);
+    color: rgb(58, 58, 58);
     font-weight: 800;
     text-transform: uppercase;
-    margin: 0 10px;
+    margin: 0em 1.5em;
   }
   .navbar ul li a,
   .navbar ul li a:after,
@@ -46,7 +36,6 @@
   /* stroke */
   .navbar.stroke ul li a,
   .navbar.fill ul li a {
-    z-index: 9999;
     position: relative;
   }
   .navbar.stroke ul li a:after,
@@ -59,7 +48,7 @@
     width: 0%;
     content: '.';
     color: transparent;
-    background: rgb(27, 27, 27);
+    background: rgba(0, 0, 0, 0.63);
     height: 2px;
   }
   .navbar.stroke ul li a:hover:after {
@@ -91,5 +80,8 @@
 
 
   .navbar-active {
-    background: rgba(255, 255, 255, 0.937);
+    transition: ease-in-out .all 5s;
+    background-color: rgba(255, 255, 255, 0.900);
+    padding: 0.8em 0em 0em 0em;
+
   }

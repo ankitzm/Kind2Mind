@@ -1,4 +1,5 @@
 import React from "react";
+import './App.css';
 import Games from "../Games/Games";
 import About from "../About/About";
 import CreatedBy from "../CreatedBy/CreatedBy";
@@ -9,15 +10,14 @@ import Playlist from "../Playlist/Playlist";
 import Note from "../Note/Note"
 
 
-import './App.css';
 import Suggestion from "../Suggestion/Suggestion";
-import Contact from "../contact/Contact";
+import Nav2 from "../nav2/nav2";
 
 function App() {
   return (
     <div className="App">
-      <Nav />
       <Landing />
+      <Nav2 />
       <About />
       <Games />
       <Playlist />
@@ -25,9 +25,8 @@ function App() {
       <Note />
       <Suggestion />
       <CreatedBy />
-      <Contact />
+      <Nav />
 
-      <div id='note'></div>
     </div>
   );
 }

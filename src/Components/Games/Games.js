@@ -4,6 +4,7 @@ import "./Games.css";
 
 import Start from './Quiz/Start'
 import Quiz from './Quiz/Quiz'
+import Heading from "../Heading/Heading";
 
 
 function Games () {
@@ -13,7 +14,7 @@ function Games () {
     return (
         <div className="game-container" id="game">
 
-            <div className="heading">Our Games</div>
+            <Heading title="Our Games" />
 
         <div className="game">
 
@@ -21,6 +22,7 @@ function Games () {
             <div className="quiz">
                 { start ? <Quiz /> : <Start props={setStart} />} 
             </div>
+            
             <Snake />
 
         </div>
