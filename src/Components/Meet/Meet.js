@@ -1,14 +1,14 @@
 import React from "react";
+import {BrowserRouter as Router, Route, Switch, Link, Redirect} from "react-router-dom";
 
-import Form from "./../Form/Form"
+import Form from "./Form/Form"
 import "./Meet.css";
-// import VideoCall from "../VideoCall/VideoCall"
+
 
 const Meet = () => {
     return(
         <div className="meet-container" id="meet">
             <Form />
-{/* <VideoCall /> */}
         </div>
     )
 }

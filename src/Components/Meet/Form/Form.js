@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import Heading from "./../Heading/Heading";
+import Heading from "../../Heading/Heading";
 import "./Form.css";
 
 class Form extends Component {
