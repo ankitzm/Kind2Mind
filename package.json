@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "homepage": "https://kind2mind.co/",
-=======
-  "homepage": "https://kind2mind.co",
->>>>>>> 32eb0c75cccacd47eaa37127b8c77874b33a7b03
   "name": "health-app",
   "version": "0.1.0",
   "private": true,
