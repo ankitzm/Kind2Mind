@@ -6,8 +6,8 @@ const ProfileCard = ({Picture, Name, About}) => {
         <div className="profile-card">
 
 
-<div class="card-container">
-	<img class="round" src={Picture} height="200px" alt="user" />
+<div className="card-container">
+	<img className="round" src={Picture} height="200px" alt="user" />
 	<h3>{Name}</h3>
 	<h6>India</h6>
 	<h4>{About}</h4>

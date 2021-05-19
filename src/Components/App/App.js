@@ -11,11 +11,13 @@ import Note from "../Note/Note"
 
 
 import Suggestion from "../Suggestion/Suggestion";
+import Nav2 from "../nav2/nav2";
 
 function App() {
   return (
     <div className="App">
       <Landing />
+      <Nav2 />
       <About />
       <Games />
       <Playlist />
@@ -23,6 +25,7 @@ function App() {
       <Note />
       <Suggestion />
       <CreatedBy />
+      <Nav />
 
     </div>
   );

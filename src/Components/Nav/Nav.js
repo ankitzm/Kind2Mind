@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Nav.css";
-import Logo from "../assets/logo.jpg"
 
 const Nav = () => {
 
@@ -21,8 +20,6 @@ const Nav = () => {
     return(
 
 <nav className={navbar ? 'navbar navbar-active stroke' : 'navbar stroke'} data-aos="ease in out">
-
-        <img className="logo" src={Logo} alt="" />
 
     
     <ul>

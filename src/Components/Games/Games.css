@@ -1,14 +1,17 @@
 .game-container {
-  background-color: rgba(223, 226, 189, 0.363);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-      flex-direction: column;
-  
-      height:auto;
-      margin: 20px;
-      padding: 20px; 
+  background-color: rgba(255, 255, 255, 0.226);
+  backdrop-filter: blur(2px);
+  box-shadow: 0 0 10px rgba(83, 83, 83, 0.596);
+  border-radius: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  height: auto;
+  margin: 130px 100px;
+  padding: 20px;
 }
 
 .heading {
@@ -16,46 +19,40 @@
   font-size: 40px;
 }
 
-
-
 .game {
-
-
-    height: auto;
-    width: auto;
-    margin:  auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    justify-content: center;
-    align-content: center;
-background-color: azure;
+  height: auto;
+  width: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: center;
+  align-content: center;
 }
 
+.quiz {
+  margin: auto;
+  padding: auto;
+  border: 4px solid black;
+  box-sizing: border-box;
+  width: 500px;
+  height: auto;
+  min-height: 350px;
+  align-self: center;
+  justify-self: center;
+  margin-bottom: 10px;
+  
+}
 
 .quiz {
-    margin: auto;
-    padding: auto;
-    border: 4px solid black;
-    box-sizing: border-box;
-    width: 500px;
-    height: auto;
-    min-height: 350px;
-    align-self: center;
-    justify-self: center;
-    
-  }
-  
-  .quiz {
-    color: #292929;
-    overflow-x: hidden;
-    
-    font-family: 'Montserrat', sans-serif;
-    
-  }
-  
-  h1, h4 {
-    font-size: 20px;
-  }
+  color: #292929;
+  overflow-x: hidden;
 
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h4 {
+  font-size: 20px;
+}

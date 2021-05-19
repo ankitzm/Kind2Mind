@@ -1,8 +1,9 @@
 import React from "react";
+import "./Nav2.css";
 
-const nav2 = () => {
+const Nav2 = () => {
     return (
-        <div className="nav" id="about">
+        <div className="nav">
       <ul>
       <li><a href="#game">Games</a></li>
       <li><a href="#playlist">Playlist</a></li>
@@ -12,3 +13,5 @@ const nav2 = () => {
       </div>
     )
 }
+
+export default Nav2;
