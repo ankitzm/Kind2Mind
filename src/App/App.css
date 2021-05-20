@@ -1,0 +1,22 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat, sans-serif;
+  width: 100vw;
+    background: linear-gradient(70deg, #ee7752, #eea552, #d7ee52, #8bee52, #52ee98, #52e9ee, #ee53b9, #db3776);
+      background-size: 400% 400%;
+      animation: gradient 10s ease infinite;
+  }
+  
+  
+  @keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+  }

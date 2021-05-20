@@ -14,7 +14,7 @@ const About = () => {
         well-being. It affects how we think, feel, and act. It also helps
         determine how we handle stress, relate to others, and make choices.
         Mental health is important at every stage of life, from childhood and
-        adolescence through adulthood.{" "}
+        adolescence through adulthood.
       </p>
       <p>
         Over the course of your life, if you experience mental health problems,

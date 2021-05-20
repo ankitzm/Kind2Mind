@@ -6,8 +6,6 @@
   flex-direction: column;
 
   height: auto;
-  margin: 20px;
-  padding: 20px;
 }
 
 .playlist-container {
@@ -20,8 +18,10 @@
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
+
   height: auto;
-  margin: 20px;
+  margin: 50px 100px;
+  padding: 20px;
 }
 
 
@@ -30,4 +30,10 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+  .playlist-container {
+      margin: 50px 30px;
+  }
 }

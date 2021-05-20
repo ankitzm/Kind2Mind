@@ -1,6 +1,6 @@
 .heading {
     padding: 30px;
-    font-size: 40px;
+    font-size: 40px !important;
     text-transform: uppercase;
-    text-align: center;
+    align-self: center !important;
 }

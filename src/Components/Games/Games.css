@@ -10,13 +10,8 @@
   flex-direction: column;
 
   height: auto;
-  margin: 130px 100px;
+  margin: 50px 100px;
   padding: 20px;
-}
-
-.heading {
-  padding: 30px;
-  font-size: 40px;
 }
 
 .game {
@@ -55,4 +50,11 @@
 h1,
 h4 {
   font-size: 20px;
+}
+
+
+@media screen and (max-width: 992px) {
+  .game-container {
+      margin: 50px 30px;
+  }
 }
