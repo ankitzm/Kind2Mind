@@ -5,6 +5,7 @@
     margin: 0px;
 padding: 2.5em 0em 0em 0em;
 width: 100%;
+z-index: 999;
 
 
   }
@@ -18,7 +19,7 @@ width: 100%;
   .navbar ul li a {
     display: block;
     text-decoration: none;
-    color: rgb(58, 58, 58);
+    color: rgba(0, 0, 0, 0.712);
     font-weight: 800;
     text-transform: uppercase;
     margin: 0em 1.5em;
@@ -30,6 +31,7 @@ width: 100%;
   }
   .navbar ul li a:hover {
     color: rgb(26, 26, 26);
+    font-weight: 1000;
   }
   
   
@@ -48,7 +50,7 @@ width: 100%;
     width: 0%;
     content: '.';
     color: transparent;
-    background: rgba(0, 0, 0, 0.63);
+    background: rgba(0, 0, 0, 0.733);
     height: 2px;
   }
   .navbar.stroke ul li a:hover:after {

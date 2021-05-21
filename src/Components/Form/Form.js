@@ -41,11 +41,9 @@ class Form extends Component {
   render() {
     return (
 
-<div data-aos="zoom-out-down">
 
 
-
-      <form onSubmit={this.handleSubmit} className="form">
+      <form onSubmit={this.handleSubmit} >
           <Heading title="INTERACT" />
         <div className="form-grid">
 
@@ -92,7 +90,6 @@ class Form extends Component {
       </form>
 
 
-</div>
     );
   }
 }
