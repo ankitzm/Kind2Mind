@@ -8,28 +8,40 @@
   justify-content: center;
   flex-direction: column;
   height: auto;
-  margin: 50px 100px;
-  padding: 50px;
+  margin: 20px 50px;
 }
 
-p {
-  font-size: 25px;
-
+.suggestion p {
+  font-size: 22px;
+  margin: 20px 80px;
   line-height: 1.2em;
 }
 
-li {
-  line-height: 1.5em;
+.suggestion ul {
+  margin: 0px 80px;
 }
 
-ol {
-  float: left;
-  padding-left: 60px;
+.suggestion ul li {
+  line-height: 1.5em;
+  font-size: 20px;
 }
 
 
 @media screen and (max-width: 992px) {
     .suggestion {
-        margin: 50px 30px;
+      margin: 20px;
+      font-size: 18px;
+    }
+
+    .suggestion p {
+      margin: 20px 30px;
+    }
+
+    .suggestion ul {
+      margin: 0px 20px;
+    }
+
+    .suggestion ul li {
+      font-size: 16px;
     }
 }

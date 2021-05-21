@@ -25,13 +25,13 @@ const Suggestion = () => {
         time:
       </p>
 
-        <ol>
+        <ul>
           <li>Take breaks from the news.</li>
           <li>Take care of your body.</li>
           <li>Plan for coping with a potentially sudden drop in social contact</li>
           <li>Create a new, adapted schedule taking cancellations into account.</li>
           <li>Write out all of your fears in a journal until your anxiety has dropped by half.</li>
-        </ol>
+        </ul>
 
     </div>
   );

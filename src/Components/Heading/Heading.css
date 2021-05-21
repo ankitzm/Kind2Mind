@@ -1,6 +1,25 @@
 .heading {
-    padding: 30px;
+    padding: 35px 0px;
     font-size: 40px !important;
     text-transform: uppercase;
-    align-self: center !important;
+    text-align: center !important;
 }
+
+@media screen and (max-width: 778px) {
+    .heading {
+        padding: 25px 0px;
+    font-size: 25px !important;
+    }
+  }
+
+  @media screen and (max-width: 660px) {
+    .heading {
+    font-size: 15px !important;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .heading {
+    font-size: 10px !important;
+    }
+  }

@@ -2,7 +2,6 @@ iframe {
     width: 263.33px;
     height: 150px;
     margin: 20px;
-    padding: 2px;
 }
 
 iframe
@@ -39,5 +38,14 @@ iframe:after
   iframe {
     width: 175.55px;
     height: 100px;
+    margin: 10px 5px;
+}
+}
+
+@media screen and (max-width: 440px) {
+  iframe {
+    width: 123.4px;
+    height: 70.3px;
+    margin: 10px 5px;
 }
 }
