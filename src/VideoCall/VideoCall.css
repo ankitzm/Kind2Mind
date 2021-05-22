@@ -1,6 +1,5 @@
-.meet-container {
+.video-call {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 98vh;
 }
