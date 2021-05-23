@@ -13,7 +13,6 @@ class Form extends Component {
       Age: "",
       Hobbies: "",
       Email: "",
-      allFieldFilled: false,
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -28,6 +27,7 @@ class Form extends Component {
 
       console.log({Name, Hobbies, Age, Email});
 
+
   }
   
   // Method causes to store all the values of the
@@ -36,7 +36,6 @@ class Form extends Component {
   // javascript feature computed property names
   handleChange(event) {
     this.setState({
-      allFieldFilled: event.target.value,
       // Computed property names
       // keys of the objects are computed dynamically
       [event.target.name]: event.target.value,
@@ -85,8 +84,7 @@ class Form extends Component {
 
 <Link to="/VideoCall">
           <button
-          className="btn"
-          disabled={this.state.Name === "" && this.state.Age === "" && this.state.Hobbies === "" && this.state.Email === ""}
+          disabled={this.state.Name === "" || this.state.Age === "" || this.state.Hobbies === "" || this.state.Email === ""}
           >
                Meet !
           </button>

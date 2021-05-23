@@ -23,7 +23,7 @@ min-height: 450px;
 
 @media screen and (max-width: 992px) {
   .title {
-    font-size: 20px;
+    font-size: 50px;
   }
 
   .tagline {

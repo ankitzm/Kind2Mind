@@ -5,6 +5,7 @@
     background: linear-gradient(70deg, #ee7752, #eea552, #d7ee52, #8bee52, #52ee98, #52e9ee, #ee53b9, #db3776);
       background-size: 400% 400%;
       animation: gradient 10s ease infinite;
+      width: 100vw;
   }
   
   

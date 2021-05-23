@@ -98,5 +98,6 @@ z-index: 999;
   @media screen and (max-width: 768px) {
     .navbar ul li a {
       margin: 0em 0.8em;
+      font-size: 12px;
     }
   }
