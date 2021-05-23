@@ -27,3 +27,9 @@
     color: rgb(26, 26, 26);
   }
   
+  @media screen and (max-width: 768px) {
+    .nav ul li a {
+      font-size: 12px;
+      margin: 0 6px;
+    }
+  }

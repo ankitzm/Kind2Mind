@@ -9,6 +9,7 @@
   flex-direction: column;
   height: auto;
   margin: 20px 50px;
+  padding: 20px 0px;
 }
 
 .suggestion p {
@@ -30,10 +31,10 @@
 @media screen and (max-width: 992px) {
     .suggestion {
       margin: 20px;
-      font-size: 18px;
     }
-
+    
     .suggestion p {
+      font-size: 18px;
       margin: 20px 30px;
     }
 
@@ -44,4 +45,11 @@
     .suggestion ul li {
       font-size: 16px;
     }
+}
+
+@media screen and (max-width: 660px) {
+  .suggestion p {
+    font-size: 15px;
+    margin: 15px 30px;
+  }
 }
