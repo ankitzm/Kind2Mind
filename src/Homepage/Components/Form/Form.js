@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import base from "./../api/base";
 import Heading from "./../Heading/Heading";
 import "./Form.css";
 
@@ -23,9 +24,13 @@ class Form extends Component {
     const { Hobbies, Name, Age, Email } = this.state;
 
     event.preventDefault();
-    
 
-      console.log({Name, Hobbies, Age, Email});
+    base("Kind2Mind").create({Name, Email, Age, Hobbies}, function(err, record) {
+      if (err) {
+        console.error(err);
+        return;
+      }
+    });
 
 
   }
