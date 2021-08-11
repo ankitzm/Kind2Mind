@@ -29,4 +29,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           npm install,
+          git commit -m "npm updated",
+          git push,
           npm run deploy.
