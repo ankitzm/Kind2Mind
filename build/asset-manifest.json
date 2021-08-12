@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/kind2mind/static/css/main.904bc23e.chunk.css",
-    "main.js": "/kind2mind/static/js/main.1f781df7.chunk.js",
-    "main.js.map": "/kind2mind/static/js/main.1f781df7.chunk.js.map",
-    "runtime-main.js": "/kind2mind/static/js/runtime-main.a7ccba3a.js",
-    "runtime-main.js.map": "/kind2mind/static/js/runtime-main.a7ccba3a.js.map",
-    "static/js/2.a671c85b.chunk.js": "/kind2mind/static/js/2.a671c85b.chunk.js",
-    "static/js/2.a671c85b.chunk.js.map": "/kind2mind/static/js/2.a671c85b.chunk.js.map",
+    "main.css": "/kind2mind/static/css/main.45695d40.chunk.css",
+    "main.js": "/kind2mind/static/js/main.6a26469b.chunk.js",
+    "main.js.map": "/kind2mind/static/js/main.6a26469b.chunk.js.map",
+    "runtime-main.js": "/kind2mind/static/js/runtime-main.aff97ea8.js",
+    "runtime-main.js.map": "/kind2mind/static/js/runtime-main.aff97ea8.js.map",
+    "static/js/2.0b1f0df8.chunk.js": "/kind2mind/static/js/2.0b1f0df8.chunk.js",
+    "static/js/2.0b1f0df8.chunk.js.map": "/kind2mind/static/js/2.0b1f0df8.chunk.js.map",
     "index.html": "/kind2mind/index.html",
-    "static/css/main.904bc23e.chunk.css.map": "/kind2mind/static/css/main.904bc23e.chunk.css.map",
-    "static/js/2.a671c85b.chunk.js.LICENSE.txt": "/kind2mind/static/js/2.a671c85b.chunk.js.LICENSE.txt",
+    "static/css/main.45695d40.chunk.css.map": "/kind2mind/static/css/main.45695d40.chunk.css.map",
+    "static/js/2.0b1f0df8.chunk.js.LICENSE.txt": "/kind2mind/static/js/2.0b1f0df8.chunk.js.LICENSE.txt",
     "static/media/pp.eb84e9a2.jfif": "/kind2mind/static/media/pp.eb84e9a2.jfif"
   },
   "entrypoints": [
-    "static/js/runtime-main.a7ccba3a.js",
-    "static/js/2.a671c85b.chunk.js",
-    "static/css/main.904bc23e.chunk.css",
-    "static/js/main.1f781df7.chunk.js"
+    "static/js/runtime-main.aff97ea8.js",
+    "static/js/2.0b1f0df8.chunk.js",
+    "static/css/main.45695d40.chunk.css",
+    "static/js/main.6a26469b.chunk.js"
   ]
 }
