@@ -5,10 +5,10 @@ import "./About.css";
 const About = () => {
   return (
     
-    <div className="about">
+    <div className="about" id="about">
 
 
-      <Heading title="What is mental Health ?" />
+      <Heading title="What is mental Health ?"/>
       <p>
         Mental health includes our emotional, psychological, and social
         well-being. It affects how we think, feel, and act. It also helps

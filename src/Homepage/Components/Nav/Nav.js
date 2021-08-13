@@ -6,7 +6,7 @@ const Nav = () => {
     const [navbar, setNavbar] = useState(false);
 
     const changeBackground = () => {
-        if(window.scrollY >= 10) {
+        if (window.scrollY >= 10) {
             setNavbar(true);
         }
         else {
@@ -17,17 +17,17 @@ const Nav = () => {
     window.addEventListener('scroll', changeBackground);
 
 
-    return(
+    return (
 
-<nav className={navbar ? 'navbar navbar-active stroke' : 'navbar stroke'} data-aos="ease in out">
+        <nav className={navbar ? 'navbar navbar-active stroke' : 'navbar stroke'} data-aos="ease in out">
 
-    
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">Mental health</a></li>
-      <li><a href="#created-by">About Us</a></li>
-    </ul>
-  </nav>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Mental health</a></li>
+                <li><a href="#created-by">About Us</a></li>
+            </ul>
+        </nav>
 
     )
 }
