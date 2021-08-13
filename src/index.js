@@ -6,8 +6,8 @@ import App from './App/App';
 import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-  
-  <BrowserRouter>
+
+  <BrowserRouter basename="/kind2mind">
     <App />
   </BrowserRouter>,
 
